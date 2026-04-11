@@ -1,7 +1,7 @@
 {
-	"name": "lib-fints",
-	"version": "1.4.7",
-	"description": "Typescript/Javascript client library for Online-Banking via the FinTS 3.0 protocol with PIN/TAN",
+	"name": "@flutgraben/lib-fints",
+	"version": "1.4.7-flutgraben.0",
+	"description": "Flutgraben fork of lib-fints with HKCCS (SEPA credit transfer) + HKVPP built in. Typescript/Javascript client for Online-Banking via FinTS 3.0 PIN/TAN.",
 	"engines": {
 		"node": ">=18.0.0"
 	},
@@ -17,7 +17,11 @@
 				"types": "./dist/types/index.d.ts",
 				"default": "./dist/index.js"
 			}
-		}
+		},
+		"./*": "./*"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"scripts": {
 		"build": "rm -rf ./dist && tsc",
