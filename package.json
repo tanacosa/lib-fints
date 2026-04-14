@@ -1,7 +1,7 @@
 {
 	"name": "@flutgraben/lib-fints",
-	"version": "1.4.7-flutgraben.0",
-	"description": "Flutgraben fork of lib-fints with HKCCS (SEPA credit transfer) + HKVPP built in. Typescript/Javascript client for Online-Banking via FinTS 3.0 PIN/TAN.",
+	"version": "1.4.8-flutgraben.0",
+	"description": "Flutgraben fork of lib-fints with HKCCS (SEPA credit transfer), HKIPZ (SEPA Instant) + HKVPP built in. Typescript/Javascript client for Online-Banking via FinTS 3.0 PIN/TAN.",
 	"engines": {
 		"node": ">=18.0.0"
 	},

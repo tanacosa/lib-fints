@@ -27,6 +27,7 @@ import { HKCAZ } from './HKCAZ.js';
 import { HKCCS } from './HKCCS.js';
 import { HKEND } from './HKEND.js';
 import { HKIDN } from './HKIDN.js';
+import { HKIPZ } from './HKIPZ.js';
 import { HKKAZ } from './HKKAZ.js';
 import { HKSAL } from './HKSAL.js';
 import { HKSPA } from './HKSPA.js';
@@ -89,6 +90,7 @@ export function registerSegments() {
 	registerSegmentDefinition(new HISPAS());
 	registerSegmentDefinition(new HKVPP());
 	registerSegmentDefinition(new HKCCS());
+	registerSegmentDefinition(new HKIPZ());
 	registerSegmentDefinition(new UNKNOW());
 	registerSegmentDefinition(new PARTED());
 }
